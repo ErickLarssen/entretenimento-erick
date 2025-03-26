@@ -99,7 +99,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(../images/lost.jpg) no-repeat;
+    background: url(../images/erick¹.png) no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -141,7 +141,7 @@ header{
 .banner .content h4{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .banner .content h4 span{
@@ -199,4 +199,90 @@ header{
 
 .banner .content .button a:hover:nth-child(2){
     background: var(--primary);
+}
+
+.banner .carousel-box{
+    position: relative;
+    min-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+.carousel{
+    position: relative;
+    height: 350px;
+    perspective: 1500px;
+}
+
+.carousel .carousel-item{
+    width: 250px;
+    cursor: pointer;
+}
+
+.carousel .carousel-item img{
+    max-width: 235px;
+    border-radius: 10px;
+    transform: translateX(8px) translateY(-100px);
+    object-fit: cover;
+    object-position: center;
+    margin-top: 130px;
+}
+
+.play{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    cursor: pointer !important;
+    transition: 0.3s;
+}
+
+.play i{
+    margin-right: 10px;
+    font-size: 40px;
+    cursor: pointer !important;
+}
+
+.play:hover{
+    color: var(--primary);
+}
+
+.sci{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sci a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sci a:hover{
+    color: var(--primary);
+
 }

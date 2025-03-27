@@ -100,7 +100,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background: url(../images/erick¹.png) no-repeat;
-    background-size: cover;
+    background-size: 850px;
     background-position: center;
     overflow: hidden;
     transition: 0.5s;
@@ -138,10 +138,63 @@ header{
     max-width: 250px;
 }
 
+.movie-title-lupin{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: -70px;
+    margin-bottom: -50px;
+}
+
+.movie-title-westworld{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: -70px;
+    margin-bottom: -80px;
+}
+
+.movie-title-materia-escura{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: -80px;
+    margin-bottom: -50px;
+}
+
+.movie-title-peaky-blinders{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: -300px;
+}
+
+.movie-title-peaky-blinders{
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin-left: 5px;
+}
+
+.movie-title-ruptura{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: -100px;
+}
+
+.movie-title-vikings{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: -10px;
+}
+
+
 .banner .content h4{
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .banner .content h4 span{
@@ -231,34 +284,7 @@ header{
     transform: translateX(8px) translateY(-100px);
     object-fit: cover;
     object-position: center;
-    margin-top: 130px;
-}
-
-.play{
-    position: absolute;
-    bottom: 50px;
-    left: 100px;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-    cursor: pointer !important;
-    transition: 0.3s;
-}
-
-.play i{
-    margin-right: 10px;
-    font-size: 40px;
-    cursor: pointer !important;
-}
-
-.play:hover{
-    color: var(--primary);
+    margin-top: 70px;
 }
 
 .sci{

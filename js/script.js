@@ -31,6 +31,35 @@ function changeBg(bg, title){
             content.classList.add('active');
         }
     });
+
+    // Dinamismo das modais
+
+    // Abrir modais
+document.querySelectorAll('.open-modal').forEach(button => {
+    button.addEventListener('click', function(event) {
+      event.preventDefault();
+      const modalId = this.getAttribute('data-modal');
+      const modal = document.getElementById(modalId);
+      if (modal) {
+        modal.style.display = 'block';
+      }
+    });
+  });
+  
+  // Fechar modais
+  document.querySelectorAll('.close-btn').forEach(closeBtn => {
+    closeBtn.addEventListener('click', function() {
+      const modal = this.closest('.modal');
+      modal.style.display = 'none';
+    });
+  });
+  
+  // Fechar modal ao clicar fora dela
+  window.addEventListener('click', function(event) {
+    if (event.target.classList.contains('modal')) {
+      event.target.style.display = 'none';
+    }
+  });  
 }
 
 

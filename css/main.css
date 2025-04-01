@@ -237,12 +237,12 @@ header{
 
 .movie-title-peaky-blinders{
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     display: block;
-    margin-left: -300px;
+    margin-left: -62px;
 }
 
-.movie-title-peaky-blinders{
+.movie-title-vikings-valhalla{
     width: 100%;
     max-width: 350px;
     display: block;
@@ -387,9 +387,102 @@ header{
 }
 
 /* RESPONSIVIDADE */
-@media screen and (max-width: 1280px) {
-    .carousel {
+@media screen and (max-width: 1280px){
+    header{
+        padding: 20px 40px;
+    }
+
+    .logo{
+        font-size: 28px;
+    }
+
+    .nav li{
+        margin: 0 8px;
+    }
+
+    .search{
+        width: 200px;
+    }
+
+    .banner{
+        padding: 0 40px;
+        background-size: cover;
+    }
+
+    .content{
+        max-width: 400px;
+    }
+
+    .banner .content h4 span{
+        padding: 0 8px;
+        font-size: 0.7em;
+    }    
+
+    .carousel{
         max-width: 100%;
         margin-left: 60px;
+    }
+    .banner .carousel-box{
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    header{
+        padding: 20px 50px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .banner{
+        padding: 0 50px;
+    }
+    .content{
+        max-width: 400px;
+    }
+    .banner .carousel-box{
+        min-width: 400px;
+    }
+    .search{
+        width: 250px;
+    }
+    .nav li{
+        margin: 0 5px;
+    }
+    .nav li a{
+        font-size: 14px;
+    }
+    .banner .content h4{
+        font-size: 18px;
+    }
+    .banner .content h4 span{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 834px){
+    .logo{
+        font-size: 15px;
+    }
+    .banner .content h4 span{
+        font-size: 0.7em;
+    }
+    .movie-title-materia-escura{
+        margin-left: -68px;
+    }
+    .movie-title-vikings-valhalla{
+        margin-left: -20px;
+    }
+    .movie-title-ruptura{
+        margin-left: -70px;
+    }
+    .movie-title-lupin{
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width: 834px){
+    .banner .content h4 span{
+        font-size: 0.6em;
     }
 }
